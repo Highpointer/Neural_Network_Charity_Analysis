@@ -45,7 +45,11 @@ Here is what the first five rows of the DataFrame looks like after initial proce
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-• The initial analysis will include two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but no so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here are the results of the initial analysis:
+• The initial analysis will include two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but no so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
+
+![FirstCode](Code1.png)
+
+Here are the results of the initial analysis:
 
 ![First Results](ModelOutput1_revised.png)
 
