@@ -1,4 +1,4 @@
-# Neural Network Charity Analysis • • • • •  ⚫
+# Neural Network Charity Analysis • • • • • ⚫
 ## Overview of the Analysis
 
 This report presents machine learning and neural networks analysis of over 34,000 lines of data to create a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup.
@@ -7,11 +7,11 @@ This report presents machine learning and neural networks analysis of over 34,00
 
 ⚫ <b>Data Preprocessing</b>
 
-The following variable is considered as the target of the analysis:
+• The following variable is considered as the target of the analysis:
 
 • <b>IS_SUCCESSFUL</b> - whether or not the money was used successfully
 
-The following variables are considered as the features of the analysis:
+• The following variables are considered as the features of the analysis:
 
   • <b>APPLICATION_TYPE</b> - Alphabet Soup application type
 
@@ -31,7 +31,7 @@ The following variables are considered as the features of the analysis:
 
   • <b>ASK_AMT</b> — Funding amount requested
 
-The following variables are neither targets nor features and are being removed fron the input analysis:
+• The following variables are neither targets nor features and are being removed fron the input analysis:
 
   • <b>EIN</b> - Unique identification number
 
@@ -45,7 +45,7 @@ Here is what the first five rows of the DataFrame looks like after initial proce
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-• The initial analysis will include two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but no so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
+• The initial analysis will include two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but not so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
 
 ![FirstCode](Code1.png)
 
@@ -54,6 +54,8 @@ Here are the results of the initial analysis:
 ![First Results](ModelOutput1_revised.png)
 
 The initial accuracy is approximately 72.5%. Our goal is to achieve an accuracy of 75% or better. 
+
+Steps did you take to try and increase model performance
 
 To improve accuracy, we could consider several options, with a few to consider as follows:
 
@@ -77,7 +79,7 @@ Changing both of the input functions to sigmoid yields about the same results, a
 
 ![Fourth Results](ModelOutput4.png)
 
-One more change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of %72.4%, about the same or slightly worse, so increasing bin size would not be an advisable strategy.
+One more change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.4%, about the same or slightly worse, so increasing bin size would not be an advisable strategy.
 
 ![Fifth Results](ModelOutput5.png)
 
