@@ -43,7 +43,7 @@ How many neurons, layers, and activation functions did you select for your neura
 
 • The initial analysis will include two (2) layers. The first layer will include 80 neurons and the second layer will include 30 neurons. I selected these numbers because they were suggested in the starter code. Here are the results of the initial analysis:
 
-![First Results](../Resources/ModelOutput1.png)
+![First Results](ModelOutput1.png)
 
 
 Were you able to achieve the target model performance?
