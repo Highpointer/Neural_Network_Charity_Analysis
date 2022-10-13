@@ -5,7 +5,7 @@ This report presents machine learning and neural networks analysis of over 34,00
 
 ## Results
 
-⚫ Data Preprocessing
+⚫ <b>Data Preprocessing</b>
 
 The following variable is considered as the target of the analysis:
 
@@ -37,8 +37,11 @@ The following variables are neither targets nor features and are being removed f
 
   • <b>NAME</b> — Name of donor
 
-⚫ Compiling, Training, and Evaluating the Model
+⚫ <b>Compiling, Training, and Evaluating the Model</b>
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+• The initial analysis will include two (2) layers. The first layer will include eight (8) neurons and the second layer will include five (5) neurons.
+
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
