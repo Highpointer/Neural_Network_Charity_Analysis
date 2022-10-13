@@ -36,6 +36,10 @@ The following variables are neither targets nor features and are being removed f
   • <b>EIN</b> - Unique identification number
 
   • <b>NAME</b> — Name of donor
+  
+Here is what the first five rows of the DataFrame looks like after initial processing:
+
+![DataFrame](Deliverable1DataFrame.png)
 
 ⚫ <b>Compiling, Training, and Evaluating the Model</b>
 
@@ -45,6 +49,7 @@ How many neurons, layers, and activation functions did you select for your neura
 
 ![First Results](ModelOutput1.png)
 
+The initial accuracy is approximately 72.5%. Our goal is to achieve an accuracy of 75% or better. 
 
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
