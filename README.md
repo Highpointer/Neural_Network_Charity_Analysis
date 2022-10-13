@@ -41,7 +41,10 @@ The following variables are neither targets nor features and are being removed f
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-• The initial analysis will include two (2) layers. The first layer will include eight (8) neurons and the second layer will include five (5) neurons.
+• The initial analysis will include two (2) layers. The first layer will include 80 neurons and the second layer will include 30 neurons. I selected these numbers because they were suggested in the starter code. Here are the results of the initial analysis:
+
+![First Results](Resources/ModelOutput1.png)
+
 
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
