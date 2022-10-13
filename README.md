@@ -13,29 +13,29 @@ The following variable is considered as the target of the analysis:
 
 The following variables are considered as the features of the analysis:
 
-• <b>APPLICATION_TYPE</b> - Alphabet Soup application type
+  • <b>APPLICATION_TYPE</b> - Alphabet Soup application type
 
-• <b>AFFILIATION</b> — Affiliated sector of industry
+  • <b>AFFILIATION</b> — Affiliated sector of industry
 
-• <b>CLASSIFICATION</b> — Government organization classification
+  • <b>CLASSIFICATION</b> — Government organization classification
 
-• <b>USE_CASE</b> — Use case for funding
+  • <b>USE_CASE</b> — Use case for funding
 
-• <b>ORGANIZATION</b> — Organization type
+  • <b>ORGANIZATION</b> — Organization type
 
-• <b>STATUS</b> — Active status
+  • <b>STATUS</b> — Active status
 
-• <b>INCOME_AMT</b> — Income classification
+  • <b>INCOME_AMT</b> — Income classification
 
-• <b>SPECIAL_CONSIDERATIONS</b> — Special consideration for application
+  • <b>SPECIAL_CONSIDERATIONS</b> — Special consideration for application
 
-• <b>ASK_AMT</b> — Funding amount requested
+  • <b>ASK_AMT</b> — Funding amount requested
 
-The following variables are neither targets nor features and are being removed fronm the input analysis:
+The following variables are neither targets nor features and are being removed fron the input analysis:
 
-• <b>EIN</b> - Unique identification number
+  • <b>EIN</b> - Unique identification number
 
-• <b>NAME</b> — Name of donor
+  • <b>NAME</b> — Name of donor
 
 ⚫ Compiling, Training, and Evaluating the Model
 
