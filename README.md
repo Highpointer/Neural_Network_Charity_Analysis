@@ -87,6 +87,8 @@ There is only a modest increase in accuracy to 72.7%, so the improvement in resu
 
 Changing both of the input functions to sigmoid yields about the same results, at 72.6%:
 
+![FourthCode](Code4.png)
+
 ![Fourth Results](ModelOutput4.png)
 
 One more change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.4%, about the same or slightly worse, so increasing bin size would not be an advisable strategy.
