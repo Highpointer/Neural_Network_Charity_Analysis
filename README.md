@@ -5,13 +5,13 @@ This report presents machine learning and neural networks analysis of over 34,00
 
 ## Results
 
-⚫ <b>Data Preprocessing</b>
+### ⚫ Data Preprocessing
 
-• The following variable is considered as the target of the analysis:
+#### • The following variable is considered as the target of the analysis:
 
 • <b>IS_SUCCESSFUL</b> - whether or not the money was used successfully
 
-• The following variables are considered as the features of the analysis:
+#### • The following variables are considered as the features of the analysis:
 
   • <b>APPLICATION_TYPE</b> - Alphabet Soup application type
 
@@ -31,7 +31,7 @@ This report presents machine learning and neural networks analysis of over 34,00
 
   • <b>ASK_AMT</b> — Funding amount requested
 
-• The following variables are neither targets nor features and are being removed fron the input analysis:
+#### • The following variables are neither targets nor features and are being removed fron the input analysis:
 
   • <b>EIN</b> - Unique identification number
 
@@ -41,11 +41,11 @@ Here is what the first five rows of the DataFrame looks like after initial proce
 
 ![DataFrame](Deliverable1DataFrame.png)
 
-⚫ <b>Compiling, Training, and Evaluating the Model</b>
+### ⚫ Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+#### • How many neurons, layers, and activation functions selected for neural network model, and why?
 
-• The initial analysis will include two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but not so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
+• The initial analysis includes two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but not so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
 
 ![FirstCode](Code1.png)
 
@@ -55,9 +55,9 @@ Here are the results of the initial analysis:
 
 The initial accuracy is approximately 72.5%. Our goal is to achieve an accuracy of 75% or better. 
 
-Steps did you take to try and increase model performance
+#### • Steps to try and increase model performance
 
-To improve accuracy, we could consider several options, with a few to consider as follows:
+##### To improve accuracy, we could consider several options, with a few to consider as follows:
 
 • Adding a third layer
 • Increasing number of neurons per layer
@@ -83,5 +83,10 @@ One more change considered was increasing the number of bins for <b>APPLICATION_
 
 ![Fifth Results](ModelOutput5.png)
 
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+#### • Did our analysis achieve target model performance?
+
+The various revisions to the analyses described above did not appreciably improve model performance. The initial analyis yieled 72.5%, but the best increase in accuracy was only to 72.5%.
+
+## Summary
+
+It appears that the steps taken above were not effective in reaching the target model performance. The recommendation is to 
