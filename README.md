@@ -75,7 +75,11 @@ Here are the results:
 
 The accuracy remains essentially unchanged at 72.5%. Therefore, adding an additional layer and more neurons does not improve accuracy. Computational time increases with no benefit to the final results.
 
-In the next test, we go back to inputs of the original analysis, using two hidden layers with 80 and 30 neurons, respectively. However, we change the input functions of the hidden layers from ReLU to tanh. Here are the results:
+In the next test, we go back to inputs of the original analysis, using two hidden layers with 80 and 30 neurons, respectively. However, we change the input functions of the hidden layers from ReLU to tanh. Here is the code for this analysis:
+
+![ThirdCode](Code3.png)
+
+Here are the results:
 
 ![Third Results](ModelOutput3.png)
 
