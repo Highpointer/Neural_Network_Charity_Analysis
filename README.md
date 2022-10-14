@@ -89,4 +89,6 @@ The various revisions to the analyses described above did not appreciably improv
 
 ## Summary
 
-It appears that the steps taken above were not effective in reaching the target model performance. The recommendation is to 
+It appears that the steps taken above were not effective in reaching the target model performance. The machine learning algorithms considered in this report failed to improve accuracy by more than 72.7%. Therefore, additional machine learning algorithms may need to be considered for future analysis. 
+
+A brief survey of research data indicates that data scientists have designed a wide variety of machine learning algorithms, and additional studies and research are revealing more algoritims that can be applied to the field of machine learning. Other algorithms to consider include support vector machines (SVM) and random forest algorithms. 
