@@ -65,7 +65,7 @@ The initial accuracy is approximately 72.5%. Our goal is to achieve an accuracy 
 
 • Changing the input functions to be used
 
-We will add a third layer, and increase the number of neurons to 100 and 50 for the first and second layers, respectively, and add 30 neurons for the third layer. This results in 11,011 parameters. Here is the code for this analysis: 
+• We will add a third layer, and increase the number of neurons to 100 and 50 for the first and second layers, respectively, and add 30 neurons for the third layer. This results in 11,011 parameters. Here is the code for this analysis: 
 
 ![SecondCode](Code2.png)
 
@@ -75,7 +75,7 @@ Here are the results:
 
 The accuracy remains essentially unchanged at 72.5%. Therefore, adding an additional layer and more neurons does not improve accuracy. Computational time increases with no benefit to the final results.
 
-In the next test, we go back to inputs of the original analysis, using two hidden layers with 80 and 30 neurons, respectively. However, we change the input functions of the hidden layers from <b>ReLU</b> to <b>tanh</b>. Here is the code for this analysis:
+• In the next test, we go back to inputs of the original analysis, using two hidden layers with 80 and 30 neurons, respectively. However, we change the input functions of the hidden layers from <b>ReLU</b> to <b>tanh</b>. Here is the code for this analysis:
 
 ![ThirdCode](Code3.png)
 
@@ -85,17 +85,17 @@ Here are the results:
 
 There is only a modest increase in accuracy to 72.7%, so the improvement in results by changing the input function is relatively negligible. 
 
-Changing both of the input functions to <b>sigmoid</b> yields about the same results, at 72.6%:
+• Changing both of the input functions to <b>sigmoid</b> yields about the same results, at 72.6%:
 
 ![FourthCode](Code4.png)
 
 ![Fourth Results](ModelOutput4.png)
 
-Another change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.5%, about the same as the other analyses, so increasing the number of bins and putting fewer values in the "Other" bins would not be an advisable strategy.
+• Another change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.5%, about the same as the other analyses, so increasing the number of bins and putting fewer values in the "Other" bins would not be an advisable strategy.
 
 ![Fifth Results](ModelOutput5_revised.png)
 
-Since increasing the complexity of the models failed to improve the performance, we could consider what would happen if we reduced the complexity of the models by using only two input layers and reducing the number of neurons for each layer. For the final test, we used two input layers with five and two neurons, respectively, for each layer. This simpler model has only 235 parameters, substantially less than the other models. Here is the code:
+• Since increasing the complexity of the models failed to improve the performance, we could consider what would happen if we reduced the complexity of the models by using only two input layers and reducing the number of neurons for each layer. For the final test, we used two input layers with five and two neurons, respectively, for each layer. This simpler model has only 235 parameters, substantially less than the other models. Here is the code:
 
 ![FifthCode](Code5.png)
 
