@@ -99,6 +99,10 @@ Since increasing the complexity of the models failed to improve the performance,
 
 ![FifthCode](Code5.png)
 
+Here are the final results:
+
+![Sixth Results](ModelOutput6.png)
+
 The actual final accuracy for the simpler model was 72.7%, which is the same or slightly higher than the results of the previous analyses.
  
 #### • Did our analysis achieve target model performance?
