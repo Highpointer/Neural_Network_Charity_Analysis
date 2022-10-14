@@ -91,9 +91,15 @@ Changing both of the input functions to <b>sigmoid</b> yields about the same res
 
 ![Fourth Results](ModelOutput4.png)
 
-One more change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.5%, about the same as the other analyses, so increasing the number of bins and putting fewer values in the "Other" bins would not be an advisable strategy.
+Another change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.5%, about the same as the other analyses, so increasing the number of bins and putting fewer values in the "Other" bins would not be an advisable strategy.
 
 ![Fifth Results](ModelOutput5_revised.png)
+
+Since increasing the complexity of the models failed to improve the performance, we could consider what would happen if we reduced the complexity of the models by using only two input layers and reducing the number of neurons for each layer. For the final test, we used two input layers with five and two neurons, respectively, for each layer. Here is the code:
+
+![FifthCode](Code5.png)
+
+The actual final accuracy for the simpler model was 72.7%, which is the same or slightly higher than the results of the previous analyses.
  
 #### • Did our analysis achieve target model performance?
 
