@@ -65,7 +65,7 @@ The initial accuracy is approximately 72.5%. Our goal is to achieve an accuracy 
 
 • Changing the input functions to be used
 
-We will add a third layer, and increase the number of neurons to 100 and 50 for the first and second layers, respectively, and add 30 neurons for the third layer. This resultes in 11,011 parameters. 
+We will add a third layer, and increase the number of neurons to 100 and 50 for the first and second layers, respectively, and add 30 neurons for the third layer. This results in 11,011 parameters. Here is the coded for this analysis: 
 
 ![SecondCode](Code2.png)
 
