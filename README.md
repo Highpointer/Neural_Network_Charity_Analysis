@@ -87,7 +87,7 @@ One more change considered was increasing the number of bins for <b>APPLICATION_
 
 The various revisions to the analyses described above did not appreciably improve model performance. The initial analyis yieled 72.5%, but the best increase in accuracy was only to 72.5%.
 
-## Summary
+### ⚫ Summary
 
 It appears that the steps taken above were not effective in reaching the target model performance. The machine learning algorithms considered in this report failed to improve accuracy by more than 72.7%. Therefore, additional machine learning algorithms may need to be considered for future analysis. 
 
