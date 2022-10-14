@@ -91,7 +91,7 @@ Changing both of the input functions to <b>sigmoid</b> yields about the same res
 
 ![Fourth Results](ModelOutput4.png)
 
-One more change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.4%, about the same or slightly worse, so increasing the bins and putting fewer values in the "Other" bin would not be an advisable strategy.
+One more change considered was increasing the number of bins for <b>APPLICATION_TYPE</b> by putting only those values with less than 10 in the "Other" bin (rather than under 200) and increasing the number of bins for <b>CLASSIFICATION</b> by putting only those values with less than 100 in the "Other" bin (rather than under 1000). This yielded an accuracy of 72.5%, about the same as the other analyses, so increasing the bins and putting fewer values in the "Other" bin would not be an advisable strategy.
 
 ![Fifth Results](ModelOutput5_revised.png)
  
