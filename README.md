@@ -97,7 +97,7 @@ One more change considered was increasing the number of bins for <b>APPLICATION_
  
 #### • Did our analysis achieve target model performance?
 
-The various revisions to the analyses described above did not appreciably improve model performance. The initial analyis yieled 72.5%, but the best increase in accuracy was only to 72.5%.
+The various revisions to the analyses described above did not appreciably improve model performance. The initial analysis yieled 72.5%, but the best increase in accuracy was only to 72.7%.
 
 ### ⚫ Summary
 
