@@ -45,7 +45,7 @@ Here is what the first five rows of the DataFrame looks like after initial proce
 
 #### • How many neurons, layers, and activation functions selected for neural network model, and why?
 
-• The initial analysis includes two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are ReLU and the function for the outpuut layer is sigmoid. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but not so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
+• The initial analysis includes two (2) hidden layers. The first layer will include 80 neurons and the second layer will include 30 neurons. Initial input functions for the hidden layers are <b>ReLU</b> and the function for the output layer is <b>sigmoid</b>. I selected these number of layers, number of neurons, and functions to be used because they were suggested in the starter code. With 5,981 paramaters, this formulation was complex enough so that strong results would likely to be achieved, but not so complex that computational time would not be excessive and there would be a lower risk of overfitting. Here is the code for the first analysis:
 
 ![FirstCode](Code1.png)
 
@@ -75,7 +75,7 @@ Here are the results:
 
 The accuracy remains essentially unchanged at 72.5%. Therefore, adding an additional layer and more neurons does not improve accuracy. Computational time increases with no benefit to the final results.
 
-In the next test, we go back to inputs of the original analysis, using two hidden layers with 80 and 30 neurons, respectively. However, we change the input functions of the hidden layers from ReLU to tanh. Here is the code for this analysis:
+In the next test, we go back to inputs of the original analysis, using two hidden layers with 80 and 30 neurons, respectively. However, we change the input functions of the hidden layers from <b>ReLU</b> to </b>tanh</b>. Here is the code for this analysis:
 
 ![ThirdCode](Code3.png)
 
@@ -85,7 +85,7 @@ Here are the results:
 
 There is only a modest increase in accuracy to 72.7%, so the improvement in results by changing the input function is relatively negligible. 
 
-Changing both of the input functions to sigmoid yields about the same results, at 72.6%:
+Changing both of the input functions to <b>sigmoid</b> yields about the same results, at 72.6%:
 
 ![FourthCode](Code4.png)
 
