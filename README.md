@@ -95,7 +95,7 @@ Another change considered was increasing the number of bins for <b>APPLICATION_T
 
 ![Fifth Results](ModelOutput5_revised.png)
 
-Since increasing the complexity of the models failed to improve the performance, we could consider what would happen if we reduced the complexity of the models by using only two input layers and reducing the number of neurons for each layer. For the final test, we used two input layers with five and two neurons, respectively, for each layer. Here is the code:
+Since increasing the complexity of the models failed to improve the performance, we could consider what would happen if we reduced the complexity of the models by using only two input layers and reducing the number of neurons for each layer. For the final test, we used two input layers with five and two neurons, respectively, for each layer. This simpler model has only 235 parameters, substantially less than the other models. Here is the code:
 
 ![FifthCode](Code5.png)
 
@@ -107,7 +107,9 @@ The actual final accuracy for the simpler model was 72.7%, which is the same or 
  
 #### • Did our analysis achieve target model performance?
 
-The various revisions to the analyses described above did not appreciably improve model performance. The initial analysis yieled 72.5%, but the best increase in accuracy was only to 72.7%.
+The various revisions to the analyses described above did not appreciably improve model performance. The initial analysis yieled 72.5%, but the best increase in accuracy was only to 72.7%. 
+
+Based on the comparison of the results of the simpler model with the more complex models, increasing the complexity of the models does not improve performance.
 
 ### ⚫ Summary
 
