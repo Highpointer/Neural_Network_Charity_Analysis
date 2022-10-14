@@ -31,7 +31,7 @@ This report presents machine learning and neural networks analysis of over 34,00
 
   • <b>ASK_AMT</b> — Funding amount requested
 
-#### • The following variables are neither targets nor features and are being removed fron the input analysis:
+#### • The following variables are neither targets nor features and are being removed from the input analysis:
 
   • <b>EIN</b> - Unique identification number
 
